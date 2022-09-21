@@ -1,0 +1,53 @@
+body{
+ background-color:aliceblue;
+}
+.container{
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.giveaway-details{
+    max-width: 600px;
+    padding: 20px;
+}
+.head{
+    color: darkblue;
+}
+.giveaway-last-date{
+    color: darkslateblue;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.text{
+    color:gray;
+}
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+
+}
+.box{
+    max-width: 60px;
+    padding: 5px;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+}
+.time{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.to-go{
+    font-size: 10px;
+}
